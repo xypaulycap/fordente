@@ -148,7 +148,7 @@ function App() {
         setMessage('✅ Successfully subscribed! You\'ll receive trading tips.');
         setEmail('');
       } else {
-        setMessage('📧 This email is already subscribed!');
+        setMessage('📧 This email is already subscribed!!');
       }
     } else {
       setMessage('❌ Please enter a valid email address.');
